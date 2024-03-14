@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Container-->
+    <div class="container">
+        <!--Nav-Bar-->
+        <nav class="nav-bar flex">
+            <h1 class="title">Dojonary</h1>
+            <form class="search" action="/search" method="get">
+                <input type="text" style="width: 400px; height: 30px; border: 2px solid #000000;" name="search" placeholder="Search">
+            </form>
+            <button onclick="changeText(this)" class="log-in-out">Log Out</button>
+        </nav>
+        <!--Body-Section-1-->
+        <section class="main1 flex">
+            <div class="word-def-1">
+                <div class="word1">
+                    <ul>
+                        <li><h2>ninja</h2></li>
+                        <li><p>noun</p></li>
+                        <li><p>Plural: ninjas</p></li>
+                    </ul>
+                    <button onclick="alert('Ninja was liked')" class="likes1">13 Likes</button>
+                </div>
+                <div .class="definition-1">
+                    <h2>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h2>
+                </div>
+            </div>
+            <article class="submit-def">
+                <p class="submit-def-quote">Dojonary is defined by <strong>YOU</strong></p>
+                <button onclick="deleteElement(this)" class="add-definition">Add Definition</button>
+            </article>
+        </section>
+        <!--Body-Section-2-->
+        <section class="main2 flex">
+            <div class="word-def-2">
+                <div class="word2">
+                    <ul>
+                        <li><h2>ninja</h2></li>
+                        <li><p>noun</p></li>
+                        <li><p>Plural: ninjas</p></li>
+                    </ul>
+                    <button onclick="alert('Ninja was liked')" class="likes2">37 Likes</button>
+                </div>
+                <div class="definition-2">
+                    <h2>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h2>
+                </div>
+            </div>
+            </div>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

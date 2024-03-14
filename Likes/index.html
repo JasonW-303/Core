@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header><h1 class= "brand">Network</h1></header>
+        <h1 class="page-title">Your Feed</h1>
+        <div class="d-flex">
+            <aside class="user-card">
+                <img class="avatar" src="./imgs/user-icon-2048x2048-ihoxz4vq.png" alt="avatar">
+                <a class="add-av" href="#">Add an avatar</a>
+                <h1 class="user-name">Jason Weimar</h1>
+            </aside>
+            <main class="main-feed">
+<!-- Post-1 -->
+                <div class="post-box1">
+                    <div class="post-info1">
+                        <h1 class="username1">Niel M</h1>
+                        <h3 class="like-count1"><span id="like-count-num1">9</span> like(s)</h3>
+                        <button class="like-button1" onclick="likeIncrease1()"><strong>Like</strong></button>
+                    </div>
+                    <div class="post-content1"> <h2>I just set up this new Discord bot, let me know what you all think. <a href="#">link</a></h2></div>
+                </div>
+<!-- Post-2 -->
+                <div class="post-box2">
+                    <div class="post-info2">
+                        <h1 class="username2">Nichole K</h1>
+                        <h3 class="like-count2"><span id="like-count-num2">12</span> like(s)</h3>
+                        <button class="like-button2" onclick="likeIncrease2()"><strong>Like</strong></button>
+                    </div>
+                    <div class="post-content2"> <h2>Just finished my <a href="#">next comic</a>,check it out.</h2></div>
+                </div>
+<!-- Post-3 -->
+                <div class="post-box3">
+                    <div class="post-info3">
+                        <h1 class="username1">Jim R</h1>
+                        <h3 class="like-count3"><span id="like-count-num3">9</span> like(s)</h3>
+                        <button class="like-button3" onclick="likeIncrease3()"><strong>Like</strong></button>
+                    </div>
+                    <div class="post-content3"> <h2>I can't stop listening to the <a href="#">new album</a>. Who else is linking it?</h2></div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
